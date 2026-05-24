@@ -1,0 +1,62 @@
+;
+; granddaddypurp.inf
+;
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System ; TODO: specify appropriate Class
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: specify appropriate ClassGuid
+Provider    = %ManufacturerName%
+CatalogFile = granddaddypurp.cat
+DriverVer = 05/23/2026,21.51.39.538
+PnpLockdown = 1
+
+[DestinationDirs]
+DefaultDestDir = 13
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+granddaddypurp.sys = 1,,
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName% = Standard,NTamd64.10.0...16299 ; %13% support introduced in build 16299
+
+[Standard.NTamd64.10.0...16299]
+%granddaddypurp.DeviceDesc% = granddaddypurp_Device, Root\granddaddypurp ; TODO: edit hw-id
+
+[granddaddypurp_Device.NT]
+CopyFiles = File_Copy
+
+[File_Copy]
+granddaddypurp.sys
+
+;-------------- Service installation
+[granddaddypurp_Device.NT.Services]
+AddService = granddaddypurp,%SPSVCINST_ASSOCSERVICE%, granddaddypurp_Service_Inst
+
+; -------------- granddaddypurp driver install sections
+[granddaddypurp_Service_Inst]
+DisplayName    = %granddaddypurp.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %13%\granddaddypurp.sys
+
+[granddaddypurp_Device.NT.Wdf]
+KmdfService = granddaddypurp, granddaddypurp_wdfsect
+
+[granddaddypurp_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE = 0x00000002
+ManufacturerName = "<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+DiskName = "granddaddypurp Installation Disk"
+granddaddypurp.DeviceDesc = "granddaddypurp Device"
+granddaddypurp.SVCDESC = "granddaddypurp Service"

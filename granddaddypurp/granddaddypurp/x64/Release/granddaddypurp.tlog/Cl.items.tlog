@@ -1,0 +1,15 @@
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\ahci\ahci_rdi.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\ahci_rdi.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\disk\disk.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\disk.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\dpc\dpc_context.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\dpc_context.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\driver_entry.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\driver_entry.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\exceptions\exception_handler.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\exception_handler.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\gpu\gpu.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\gpu.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\hooks\hook_engine.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\hook_engine.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\idt\idt_hook.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\idt_hook.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\monitor\monitor.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\monitor.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\network\network.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\network.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\pattern\pattern_scan.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\pattern_scan.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\registry\registry_cleaner.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\registry_cleaner.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\smbios\smbios.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\smbios.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\tpm\tpm.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\tpm.obj
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\usb\usb.cc;C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\x64\Release\usb.obj

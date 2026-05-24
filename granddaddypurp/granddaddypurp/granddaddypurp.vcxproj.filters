@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cc;c;cpp;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>hh;h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\hooks">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\idt">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exceptions">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pattern">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dpc">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\smbios">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ahci">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\disk">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\usb">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tpm">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-00000000000A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-00000000000B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gpu">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-00000000000C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\monitor">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-00000000000D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\registry">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-00000000000E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\includes">
+      <UniqueIdentifier>{B1B2C3D4-0001-0001-0001-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ia32">
+      <UniqueIdentifier>{B1B2C3D4-0001-0001-0001-000000000002}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver_entry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hook_engine.cc">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="idt\idt_hook.cc">
+      <Filter>Source Files\idt</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\exception_handler.cc">
+      <Filter>Source Files\exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="pattern\pattern_scan.cc">
+      <Filter>Source Files\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="dpc\dpc_context.cc">
+      <Filter>Source Files\dpc</Filter>
+    </ClCompile>
+    <ClCompile Include="smbios\smbios.cc">
+      <Filter>Source Files\smbios</Filter>
+    </ClCompile>
+    <ClCompile Include="ahci\ahci_rdi.cc">
+      <Filter>Source Files\ahci</Filter>
+    </ClCompile>
+    <ClCompile Include="disk\disk.cc">
+      <Filter>Source Files\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="usb\usb.cc">
+      <Filter>Source Files\usb</Filter>
+    </ClCompile>
+    <ClCompile Include="tpm\tpm.cc">
+      <Filter>Source Files\tpm</Filter>
+    </ClCompile>
+    <ClCompile Include="network\network.cc">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu\gpu.cc">
+      <Filter>Source Files\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="monitor\monitor.cc">
+      <Filter>Source Files\monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="registry\registry_cleaner.cc">
+      <Filter>Source Files\registry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\globals.hh">
+      <Filter>Header Files\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\logging.hh">
+      <Filter>Header Files\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="ia32\ia32.hh">
+      <Filter>Header Files\ia32</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hook_engine.hh">
+      <Filter>Source Files\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="idt\idt_hook.hh">
+      <Filter>Source Files\idt</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\exception_handler.hh">
+      <Filter>Source Files\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="pattern\pattern_scan.hh">
+      <Filter>Source Files\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="dpc\dpc_context.hh">
+      <Filter>Source Files\dpc</Filter>
+    </ClInclude>
+    <ClInclude Include="smbios\smbios.hh">
+      <Filter>Source Files\smbios</Filter>
+    </ClInclude>
+    <ClInclude Include="ahci\ahci_rdi.hh">
+      <Filter>Source Files\ahci</Filter>
+    </ClInclude>
+    <ClInclude Include="disk\disk.hh">
+      <Filter>Source Files\disk</Filter>
+    </ClInclude>
+    <ClInclude Include="usb\usb.hh">
+      <Filter>Source Files\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="tpm\tpm.hh">
+      <Filter>Source Files\tpm</Filter>
+    </ClInclude>
+    <ClInclude Include="network\network.hh">
+      <Filter>Source Files\network</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu\gpu.hh">
+      <Filter>Source Files\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="monitor\monitor.hh">
+      <Filter>Source Files\monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="registry\registry_cleaner.hh">
+      <Filter>Source Files\registry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

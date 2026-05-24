@@ -1,0 +1,24 @@
+﻿  Building 'granddaddypurp' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  driver_entry.cc
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\ia32\ia32.hh(13,9): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'driver_entry.cc')
+  
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\ia32\ia32.hh(38,9): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'driver_entry.cc')
+  
+C:\Users\calla\source\repos\granddaddypurp\granddaddypurp\ia32\ia32.hh(74,9): warning C4201: nonstandard extension used: nameless struct/union
+  (compiling source file 'driver_entry.cc')
+  
+  granddaddypurp.vcxproj -> C:\Users\calla\source\repos\granddaddypurp\x64\Release\granddaddypurp.sys
+  Driver is 'Universal'.
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\calla\source\repos\granddaddypurp\x64\Release\granddaddypurp\granddaddypurp.cat
